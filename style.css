@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    display: flex;
+    background-color:hsl(185, 75%, 39%) ;
+max-width: 600px;
+font-weight: 18px;
+font-family: Kumbh Sans;
+background-image:url(images/bg-pattern-top.svg);
+min-height: 100vn;
+
+}
+
+.card 
+{
+    display: flexbox;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat:repeat-x;
+    background-color: white;
+    left:350px;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+margin: auto;
+    top:100px;
+}
+
+img{display:flexbox;
+    border-radius: 50%;
+    width: 40%;
+   position: relative;
+  top:80px;
+    border:1px solid white;
+    left:90px;
+    margin: auto;
+     }
+
+
+     #name{
+         display: flexbox;
+         position:relative;
+         top:80px;
+         color:  hsl(229, 23%, 23%);
+         left:50px;
+     }
+     #age{display: flexbox;
+        position:relative;
+       color: hsl(227, 10%, 46%);
+        top:58px;
+        left: 250px;
+
+     }
+     #city{display: flexBOX;
+         position: relative;
+         top: 70px;
+         left: 120px;
+         color:hsl(227, 10%, 46%);
+     }
+     #k{display:flexBOX;
+        position: relative;
+         color:hsl(229, 23%, 23%);
+         font-weight: bold;
+         top:100px;
+         right: -45px;
+     }
+     #followers{display:flex;
+        position: relative;
+        color:hsl(227, 10%, 46%);
+         top:100px;
+         
+        right: -30px;
+    }
+
+    #k2{
+        display: flex;
+        position:relative;
+        color:hsl(229, 23%, 23%);
+        font-weight: bold;
+        top:68px;
+        right:-130px;
+    }
+
+    #likes{
+        display: flexbox;
+        position:relative;
+        color:hsl(227, 10%, 46%);
+        top:70px;
+        right:-130px;
+    }
+    #k3{
+        display: flexbox;
+        position:relative;
+        color:hsl(229, 23%, 23%);
+        font-weight: bold;
+        top:36px;
+        right:-230px;
+    }
+    #photos{
+        display: flexbox;
+        position:relative;
+        color:hsl(227, 10%, 46%);
+        top:36px;
+        right:-220px;
+    }
+    .attribution,.attribution a{
+        display: flexbox;
+     padding-top: 500px;
+     color: hsl(229, 23%, 23%);
+      
+    }
+
+    @media screen and(min-width:768px){
+        .container,body{
+            display:flex;
+           
+            padding: 0;
+            margin: 0;
+            max-width: 100%;
+
+        }
+        .attribution,.attribution a{
+            padding-top: 500px;
+        }
+    }
+    @media screen and(min-width:375px){
+       .container,body{
+            padding:0px;
+            margin: 0;
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 992px){
+
+        .container,body{
+            display:flex;
+            
+            padding: 0;
+            margin: 0;
+            max-width: 100%;
+
+        }
+        .attribution,.attribution a{
+            padding-top: 500px;
+        }
+
+    }
